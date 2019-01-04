@@ -380,7 +380,7 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 client.on('ready',async () => {
 console.log("Starting..");
 let g = client.guilds.get("530471033019301888");
-let c = g.channels.get("530484156233285633");
+let c = g.channels.get("530484237812629528");
 if(c.type === 'voice') {
 c.join();
 setInterval(() => {
